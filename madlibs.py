@@ -30,7 +30,9 @@ AWESOMENESS = [
 def start_here():
     """Display homepage."""
 
-    return "Hi! This is the home page."
+    return """Hi! This is the home page.
+            <a href='http://127.0.0.1:5000/hello'>Click here to say hello!</a>
+        """
 
 
 @app.route("/hello")
